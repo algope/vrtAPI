@@ -1,0 +1,19 @@
+{
+  "name": "vrtapi",
+  "version": "1.0.0",
+  "description": "Valencia Random Town API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algope/vrtAPI.git"
+  },
+  "author": "Alejandro González Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algope/vrtAPI/issues"
+  },
+  "homepage": "https://github.com/algope/vrtAPI#readme"
+}
