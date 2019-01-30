@@ -5,7 +5,6 @@ const port = process.env.PORT || 3000;
 
 // File path.
 readXlsxFile('townsClean.xlsx').then((rows) => {
-    console.log(rows[0]);
     rows.shift();
 
     app.get('/getRandomTown', function (req, res) {
