@@ -1,6 +1,7 @@
 const readXlsxFile = require('read-excel-file/node');
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3000;
 
 // File path.
 readXlsxFile('townsClean.xlsx').then((rows) => {
@@ -13,8 +14,8 @@ readXlsxFile('townsClean.xlsx').then((rows) => {
         res.send(data);
     });
 
-    app.listen(3000, function () {
-        console.log('Listening on port 3000!');
+    app.listen(port, function () {
+        console.log('Listening on port: '+port);
     });
 });
 
